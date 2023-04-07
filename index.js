@@ -46,6 +46,7 @@ function update(e) {
     if (oldTitle != title) {
         oldTitle = title;
         document.title = title;
+	document.getElementById("title").innerHTML  =  title;
     }
     //clearTimeout(hashto);
     //hashto = setTimeout(updateHash, 1000);
